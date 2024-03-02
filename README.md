@@ -21,7 +21,7 @@ Import into your project using Maven:
 Then, you can simply create a SessionBuilder, fill in the details & create a Session. Here's an example:
 ```java
 public static void main(String[] args) {
-    setApiKey("{your api key}");
+    StripeWrapper.setApiKey("{your api key}");
 
     SessionBuilder sessionBuilder = new SessionBuilder();
     sessionBuilder.setPrice("{price id}");
