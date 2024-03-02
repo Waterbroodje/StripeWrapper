@@ -13,10 +13,10 @@ Import into your project using Maven:
 <dependency>
     <groupId>com.github.Waterbroodje</groupId>
     <artifactId>StripeWrapper</artifactId>
-    <version>Tag</version>
+    <version>Version</version>
 </dependency>
 ```
-Replace tag with [![](https://jitpack.io/v/Waterbroodje/StripeWrapper.svg)](https://jitpack.io/#Waterbroodje/StripeWrapper)
+[![](https://jitpack.io/v/Waterbroodje/StripeWrapper.svg)](https://jitpack.io/#Waterbroodje/StripeWrapper)
 
 Then, you can simply create a SessionBuilder, fill in the details & create a Session. Here's an example:
 ```java
