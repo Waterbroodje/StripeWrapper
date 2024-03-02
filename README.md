@@ -2,6 +2,21 @@
 I've made a Stripe wrapper so I can easily create checkout pages in my Java projects.
 ## How to use:
 Import into your project using Maven:
+```xml
+<repositories>
+    <repository>
+	    <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependency>
+    <groupId>com.github.Waterbroodje</groupId>
+    <artifactId>StripeWrapper</artifactId>
+    <version>Tag</version>
+</dependency>
+```
+Replace tag with [![](https://jitpack.io/v/Waterbroodje/StripeWrapper.svg)](https://jitpack.io/#Waterbroodje/StripeWrapper)
 
 Then, you can simply create a SessionBuilder, fill in the details & create a Session. Here's an example:
 ```java
